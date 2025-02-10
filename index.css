@@ -5,7 +5,7 @@
 
 .navbar {
     height: 72px;
-    width: 1847px;
+    width: 1845px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
@@ -29,7 +29,6 @@
 
 .nav-ul li {
     margin: 10px;
-    /* padding: 0; */
 }
 
 .nav-search {
@@ -48,7 +47,7 @@
     margin-top: 16px;
     margin-bottom: 25px;
     border-radius: 24px;
-    
+
 }
 
 .nav-notification {
@@ -70,4 +69,147 @@
 .nav-arrow {
     margin-left: 34px;
     margin-top: 7px;
+}
+
+/* -----------------side-bar----------------- */
+
+.side-bar {
+    height: 890px;
+    width: 245px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.side-menu {
+    height: 48px;
+    width: 24px;
+    margin-top: 46px;
+    margin-left: 32px;
+    color: #9CA4AB;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.side-discover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    color: #78828A;
+    gap: 12px;
+    width: 115px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 20px;
+}
+
+.top-rated {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 115px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /* margin-left: 20px; */
+}
+
+.comming-soon {
+    display: flex;
+    color: #78828A;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 115px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 30px;
+}
+
+.side-liberary {
+    height: 48px;
+    width: 24px;
+    margin-top: 46px;
+    margin-left: 32px;
+    color: #9CA4AB;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.side-recent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #78828A;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 115px;
+    height: 24px;
+    flex: none;
+    float: left;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 30px;
+
+}
+
+.side-download {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    color: #78828A;
+    gap: 12px;
+    width: 115px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 25px;
+
+}
+
+.side-darkmode {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #78828A;
+    padding: 0px;
+    gap: 12px;
+    width: 115px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 35px;
+}
+
+.side-setting {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #78828A;
+    padding: 0px;
+    gap: 12px;
+    width: 115px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 15px;
 }
